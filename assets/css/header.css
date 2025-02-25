@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    max-width: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+  
+.container-fluid {
+    flex: 1;
+    position: relative;
+}
+  
+.container-fluid header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+  
+.container-fluid header>a {
+   padding: 0 35px 0 35px;
+}
+  
+header .input-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+  
+header .input-field {
+    font-size: 15px;
+    height: 40px;
+    width: 400px;
+    padding: 0 10px 0 10px;
+    border-radius: 30px;
+    outline: none;
+}
+  
+.input-box i {
+    position: absolute;
+    right: 10px;
+    font-size: 14px;
+    color: #a9a9a9;
+}
+
+.input-box i:hover {
+    color: #000;
+}
+  
+header .header-button .btn {
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 30px;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #a9a9a9;
+}
+  
+.header-button .btn:hover {
+    background-color: #00cccc;
+    color: #f0f0f0;
+    border: 2px solid #00cccc;
+    transition: 0.5s;
+}
+  
+.header-button {
+    margin-left: auto;
+}
+  
+#registerBtn {
+    margin-left: 15px;
+}
+
+.shop-button {
+    height: 40px;
+    width: 40px;
+    color: #000;
+    border: 2px solid #a9a9a9;
+    line-height: 36px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.shop-button:hover {
+    background-color: #00cccc;
+    color: #f0f0f0;
+    border: 2px solid #00cccc;
+    transition: 0.5s;
+}
